@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="default_btn_text" />
+    <string name="x_btn_text">x</string>
+    <string name="o_btn_text">o</string>
+    <string name="lose_count">Lose count: </string>
+    <string name="replay">Replay</string>
+    <string name="developer">Developed by: Shujaa Ahmad</string>
+    <string name="warning">Warning! It is impossible to win in this game.</string>
+    <string name="new_game">Click anywhere on the board to begin.</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/warning"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textColor="@color/teal_700"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lose_count"
+            android:layout_gravity="start"
+            android:id="@+id/count"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_margin="25dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/replay"
+            android:onClick="replay"
+            android:enabled="false"
+            android:id="@+id/repl_btn"
+            android:layout_marginRight="25dp"/>
+
+    </LinearLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:layout_margin="25dp"
+        android:id="@+id/main_layout"
+        android:layout_weight="4">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_game"
+            android:textSize="18sp"
+            android:textColor="@color/purple_200"
+            android:layout_columnSpan="3"
+            android:layout_margin="10dp"
+            android:id="@+id/disp_msg"/>
+    </GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom|center"
+        android:text="@string/developer"
+        android:layout_marginBottom="14dp"/>
+</LinearLayout>
