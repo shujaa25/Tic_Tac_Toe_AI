@@ -2,6 +2,8 @@
 Tic Tac Toe android game based on the minimax algorithm.
 Read about minimax from here: https://en.wikipedia.org/wiki/Minimax
 
+Watch gameplay here: https://youtu.be/BegomcDo5I4
+
 Screenshots:
 
 ![Screenshot_20220214-154300_Tic Tac Toe](https://user-images.githubusercontent.com/38812037/153851354-504fa082-bcee-4029-add7-72075e9788f8.jpg)
